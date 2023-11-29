@@ -3,24 +3,19 @@ body {
     flex-direction: column;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    border: 1px solid rgb(41, 91, 41);
-}
-
 .container {
     position: relative;
-    border: 5px solid green;
+    border: 1px solid lightgray;
     display: flex;
-    /* width: auto; */
-
+    width: auto;
+    overflow: hidden;
 
 }
 
 .box1 {
-    border: 3px solid rgb(149, 34, 34);
-    width: 50%;
+    background-color: rgb(160, 160, 232);
+    color: white;
+    width: 30%;
     display: flex;
     flex-direction: column;
 
@@ -28,36 +23,33 @@ header {
 }
 
 .enfant1-box1 {
-    margin: 0px;
-    border: 1px solid black;
+   
+  
 
 }
 
 .enfant2-box1 {
-
-    border: 1px solid rgb(43, 226, 195);
+   
 
 }
 
 .enfant3-box1 {
-
-    border: 1px solid rgb(234, 255, 0);
+   
 
 }
-
 
 
 .box2 {
-    border: 3px solid blue;
-    width: 50%;
+    
+    width: 70%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    align-content: stretch;
+    align-items: center;
+
 }
 
 .enfant1-box2 {
-    margin: 0px;
+    margin: 10px;
     border: 1px solid black;
 
 }
@@ -70,30 +62,35 @@ header {
 
 .enfant3-box2 {
     margin: 0px;
+    border: 1px solid rgb(34, 0, 255);
+
+}
+
+.enfant4-box2 {
+    margin: 0px;
     border: 1px solid rgb(234, 255, 0);
 
 }
 
 .enfant5-box2-buttons {
     margin: 0px;
-    border: 1px solid rgba(234, 255, 0, 0.091)
+    border: 3px solid rgba(91, 62, 221, 0.091);
 
 }
 
-.button1 {
-   
-}
+.button1 {}
 
-.button2 {
-   
-}
+.button2 {}
 
 
 img {
-    height: 25vh;
+    width: 50%;
+    height: auto;
+    max-width: 20%;
+    max-height: auto;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 35%;
     transform: translate(-50%, -50%);
     z-index: 1;
 }
