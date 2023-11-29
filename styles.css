@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(41, 91, 41);
+}
+
+.container {
+    position: relative;
+    border: 5px solid green;
+    display: flex;
+    /* width: auto; */
+
+
+}
+
+.box1 {
+    border: 3px solid rgb(149, 34, 34);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.enfant1-box1 {
+    margin: 0px;
+    border: 1px solid black;
+
+}
+
+.enfant2-box1 {
+
+    border: 1px solid rgb(43, 226, 195);
+
+}
+
+.enfant3-box1 {
+
+    border: 1px solid rgb(234, 255, 0);
+
+}
+
+
+
+.box2 {
+    border: 3px solid blue;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: stretch;
+}
+
+.enfant1-box2 {
+    margin: 0px;
+    border: 1px solid black;
+
+}
+
+.enfant2-box2 {
+    margin: 0px;
+    border: 1px solid rgb(43, 226, 195);
+
+}
+
+.enfant3-box2 {
+    margin: 0px;
+    border: 1px solid rgb(234, 255, 0);
+
+}
+
+.enfant5-box2-buttons {
+    margin: 0px;
+    border: 1px solid rgba(234, 255, 0, 0.091)
+
+}
+
+.button1 {
+   
+}
+
+.button2 {
+   
+}
+
+
+img {
+    height: 25vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
